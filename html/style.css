@@ -1,0 +1,32 @@
+h5 {
+    color: red;
+    font-weight: bold;
+}
+
+
+body {
+    --color-page-background: rgb(255, 255, 255);; /* rgba(0, 0, 80, .15); */
+    --color-primary-light: rgb(255, 255, 255);
+    --color-primary-dark: rgb(10,10,10);
+  }
+  
+  .nightmode {
+    --color-page-background: rgb(0, 57, 77); /* rgba(0, 0, 20, .95); */
+    --color-primary-light: rgb(10,10,10);
+    --color-primary-dark: rgb(255,255,255);
+  }
+  
+  
+  * {
+      transition: all .10s ease-in;
+  }
+  
+  body {
+    background-color: var(--color-page-background);
+    color: var(--color-primary-dark);
+  }
+
+  .alwaysblack {
+      color:black
+  }
+  

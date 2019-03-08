@@ -1,0 +1,1 @@
+<?php exec('sudo apt -y upgrade && sudo apt -y upgrade'); ?>
